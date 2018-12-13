@@ -1,0 +1,21 @@
+<div class="section client-logo">
+    <div class="container">
+        <div class="row">
+			<div class="col-sm-12 text-center heading_space">
+			  <h2 class="heading"><span>Our</span> Clients <span class="divider-center"></span></h2>
+			</div>
+			<div class="col-sm-12 text-center">
+				<ul class="client-active group owl-carousel">
+					{%for client in  .site.data.clients.clients %}
+						<li class=" list-group-item animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+							<div class="single-team">
+								<img src="{{ client.image }}"  alt="{{ client.image }}">
+							</div>
+						</li>
+					{% endfor %}
+					<!-- end single team -->
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,25 @@
+<!--Customers Review-->
+<section id="reviews" class="padding bg_grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center wow fadeInDown">
+      <h2 class="heading heading_space"><span>Client</span> Testimonials <span class="divider-center"></span></h2>
+      <div id="review_slider" class="owl-carousel text-center">
+		{% for testimonial in site.data.testimonials.testimonials %}
+	  
+        <div class="item">
+          <img src="{{testimonial.image}}" class="client_pic border_radius" alt="{{testimonial.name}}">
+          <p class="review_text">{{testimonial.comment}}</p>
+          <h4>{{testimonial.name}}</h4>
+          <p>{{testimonial.post}}</p>
+        </div>
+		
+		{% endfor %}
+		
+		
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Customers Review-->

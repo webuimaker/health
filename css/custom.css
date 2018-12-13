@@ -1,0 +1,51 @@
+nav.navbar.bootsnav .navbar-brand > img{width:180px}
+.pushmenu .push-logo> img{width:180px;}
+#counter{
+	background: rgba(0,0,0,0.03);
+}
+#counter .number-counters{
+	color:#0f0f0f;
+}
+#counter p{
+	color:#0f0f0f;
+}
+.client-active li{
+	border:0px;
+}
+.client-logo{margin:50px 0px;}
+.service-box{
+	width:100%;
+}
+.service-box .box{
+	text-align:center;
+	min-height:200px;
+	justify-content: center;
+	    align-items: center;
+}
+.service-box .box:hover .overlay{
+    opacity: 1;
+	display:flex;
+	justify-content: center;
+    align-items: center;
+	    background-color: rgba(15, 15, 15, 1);
+		color:#fff;
+}
+.service-box .box:hover .overlay p{
+	color:#fff;
+}
+
+.eq-height-row{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+}
+.eq-box{
+  flex-grow: 1;
+  display: flex;
+  flex: 1 0 auto;
+}

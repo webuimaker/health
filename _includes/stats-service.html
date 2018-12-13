@@ -1,0 +1,17 @@
+
+<!--Fun Facts-->
+<section id="counter" class="parallax padding">
+  <div class="container">
+    <h2 class="hidden">hidden</h2>
+    <div class="row number-counters">
+		{% for serv in page.service.services %}
+		  <div class="col-md-4 col-sm-6 col-xs-6 counters-item text-center wow fadeInUp" data-wow-delay="300ms">
+			<i class="{{serv.icon}}"></i>
+			<strong data-to="{{serv.counter}}">0</strong>
+			<p>{{serv.text}}</p>
+		  </div>
+        {% endfor %}
+    </div>
+  </div>
+</section>
+<!--Fun Facts-->

@@ -1,0 +1,65 @@
+
+<a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+
+<!--Loader-->
+<div class="loader">
+  <div class="spinner centered">
+  <div class="spinner-container container1">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+  </div>
+  <div class="spinner-container container2">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+  </div>
+</div>
+</div>
+
+<!--Header-->
+<header>
+  <nav class="navbar navbar-default navbar-fixed white no-background bootsnav pushy">
+    <div class="container"> 
+       <div id="menu_bars" class="right">
+        <span class="t1"></span>
+        <span class="t2"></span>
+        <span class="t3"></span>
+      </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="index.html">
+			<img src="images/logo-white.png" alt="logo" class="logo logo-display">
+			<img src="images/logo.png" class="logo logo-scrolled" alt="">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOut">
+			{% for nav in site.navigations %}	
+				<li><a href="{{site.baseurl}}/{{ nav.url }}">{{ nav.title }}</a></li>
+            {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="sidebar_menu">
+        <nav class="pushmenu pushmenu-right">
+          <a class="push-logo" href="index.html"><img src="images/logo.png" alt="logo"></a>
+          <ul class="push_nav centered">
+            {% for nav in site.navigations %}	
+				<li><a href="{{site.baseurl}}/{{ nav.url }}">{{ nav.title }}</a></li>
+            {% endfor %}
+          </ul>
+          <div class="clearfix"></div>
+          <ul class="social_icon black top25 bottom20">
+			 {% for socials in site.social %}	
+				<li><a href="{{ socials.url }}" class="{{ socials.class }}"><i class="{{ socials.icon }} "></i>   </a></li>
+            {% endfor %}
+        </ul>
+        </nav>
+      </div>   
+  </nav>
+</header>

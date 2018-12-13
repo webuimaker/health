@@ -1,0 +1,23 @@
+{
+   "testimonials": [
+      {
+         "image": "images/customer1.png",
+         "comment": "I've been happy with the services provided by Xwin LLC. Scooter Libby has been wonderful! He has returned my calls quickly, and he answered all my questions. This is required when, for example, the final text is not yet available. We are here to help you from the initial phase to the final Xwin phase.",
+		 "name": "John Smith",
+		 "post": "Ditector Shangha"
+      },
+	  {
+         "image": "images/customer1.png",
+         "comment": "I've been happy with the services provided by Xwin LLC. Scooter Libby has been wonderful! He has returned my calls quickly, and he answered all my questions. This is required when, for example, the final text is not yet available. We are here to help you from the initial phase to the final Xwin phase.",
+		 "name": "Matthew ",
+		 "post": "Ditector Shangha"
+      },
+	  {
+         "image": "images/customer1.png",
+         "comment": "I've been happy with the services provided by Xwin LLC. Scooter Libby has been wonderful! He has returned my calls quickly, and he answered all my questions. This is required when, for example, the final text is not yet available. We are here to help you from the initial phase to the final Xwin phase.",
+		 "name": "Robert Jhon",
+		 "post": "Ditector Shangha"
+      }
+	  
+   ]
+}
